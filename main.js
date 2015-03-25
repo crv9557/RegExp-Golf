@@ -1,30 +1,33 @@
+// Connor Ring Ch. 9 Problem
+// March 20th, 2015
+
 // Fill in the regular expressions
 
-verify(/.../,
+verify(/car/,
        ["my car", "bad cats"],
        ["camper", "high art"]);
 
-verify(/.../,
+verify(/pop/,
        ["pop culture", "mad props"],
        ["plop"]);
 
-verify(/.../,
+verify(/fer/,
        ["ferret", "ferry", "ferrari"],
        ["ferrum", "transfer A"]);
 
-verify(/.../,
+verify(/ious/,
        ["how delicious", "spacious room"],
        ["ruinous", "consciousness"]);
 
-verify(/.../,
+verify(/./,
        ["bad punctuation ."],
        ["escape the dot"]);
 
-verify(/.../,
+verify(/no/,
        ["hottentottententen"],
        ["no", "hotten totten tenten"]);
 
-verify(/.../,
+verify(/e/,
        ["red platypus", "wobbling nest"],
        ["earth bed", "learning ape"]);
 
